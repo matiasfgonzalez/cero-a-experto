@@ -5,11 +5,6 @@ export default {
     component: Button
 };
 
-const Template = (args) => <Button {...args} />;
+export const Primary = () => <Button type="primary">Primary</Button>;
 
-export const Primary = Template.bind({});
-
-Primary.args = {
-    primary: true,
-    label: "Button"
-};
+export const Secondary = () => <Button type="secondary">Secondary</Button>;

@@ -1,14 +1,17 @@
-:root {
-    --stratos: #00065b;
-    --white: #fff;
-    --white-lilac: #e8e8e8;
-}
-
 .button {
     border: 1px solid transparent;
     padding: 10px 85px;
     border-radius: 30px;
     box-shadow: 0px 4px 5px var(--white-lilac);
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(1.1);
+}
+
+.button:active {
+    filter: brightness(0.9);
 }
 
 .type-primary {
